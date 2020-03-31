@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T03:24:33.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rcQOq_A3Sa0rsaSy6o1e" version="12.9.4" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-31T06:30:37.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="XCTHtokFDUu7zfi4skMb" version="12.9.4" type="github" pages="13">
   <diagram id="cGvrVyZMOiP20qZQfVJy" name="Key Terms">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -862,7 +862,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HmPCb3EvC15k7vnNABeO" name="任务-组件数据模型">
-    <mxGraphModel dx="1078" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yf7TL0ZsRpmvreX1mohq-0" />
         <mxCell id="yf7TL0ZsRpmvreX1mohq-1" parent="yf7TL0ZsRpmvreX1mohq-0" />
@@ -896,7 +896,7 @@
         <mxCell id="yf7TL0ZsRpmvreX1mohq-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-10">
           <mxGeometry y="26" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yf7TL0ZsRpmvreX1mohq-12" value="+ id: string&#xa;+ type: string&#xa;+ optionsId: string&#xa;+ options: Map&lt;String, Object&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-10">
+        <mxCell id="yf7TL0ZsRpmvreX1mohq-12" value="+ id: string&#xa;+ type: string，预留&#xa;+ optionsId: string&#xa;+ options: Map&lt;String, Object&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-10">
           <mxGeometry y="34" width="200" height="76" as="geometry" />
         </mxCell>
         <mxCell id="yf7TL0ZsRpmvreX1mohq-13" value="TaskState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-1">
@@ -936,7 +936,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Lmh0zDlbdfTJMOy9Zfx6" name="任务创建流程">
-    <mxGraphModel dx="1078" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8lcBveZCTcsamRdvOMMD-0" />
         <mxCell id="8lcBveZCTcsamRdvOMMD-1" parent="8lcBveZCTcsamRdvOMMD-0" />
@@ -1296,6 +1296,9 @@
         <mxCell id="940r5_cUjUDk8v43VcMi-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="940r5_cUjUDk8v43VcMi-0" source="940r5_cUjUDk8v43VcMi-2" target="940r5_cUjUDk8v43VcMi-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ymz6H5hvlnyJIZK02ghi-0" value="各个状态跟NIFI中状态的对应关系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="49Kv-ysbmTxy3fV_UNaF-1">
+          <mxGeometry x="-80" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1376,13 +1379,13 @@
         <mxCell id="0t_FEINia7BLSoOnN3GV-30" value="LB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
           <mxGeometry x="30" y="250" width="20" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="0t_FEINia7BLSoOnN3GV-24" value="data-pipe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
+        <mxCell id="0t_FEINia7BLSoOnN3GV-24" value="DES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
           <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0t_FEINia7BLSoOnN3GV-25" value="data-pipe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
+        <mxCell id="0t_FEINia7BLSoOnN3GV-25" value="DES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
           <mxGeometry x="70" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0t_FEINia7BLSoOnN3GV-26" value="data-pipe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
+        <mxCell id="0t_FEINia7BLSoOnN3GV-26" value="DES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="0t_FEINia7BLSoOnN3GV-1" vertex="1">
           <mxGeometry x="70" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B1Xusws-ZTBp9mnz2k6j-0" value="DB" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" vertex="1" parent="0t_FEINia7BLSoOnN3GV-1">
@@ -1401,6 +1404,9 @@
           <mxGeometry x="-0.1593" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yfCM9_OK--BGRQVFeyvU-2" value="data model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0t_FEINia7BLSoOnN3GV-1">
+          <mxGeometry x="470" y="420" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
