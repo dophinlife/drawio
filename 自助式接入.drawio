@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-31T03:04:45.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Mt4QL5UmTO0-pQiQvZQn" version="12.9.4" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2020-03-31T03:24:33.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="rcQOq_A3Sa0rsaSy6o1e" version="12.9.4" type="github" pages="13">
   <diagram id="cGvrVyZMOiP20qZQfVJy" name="Key Terms">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -862,7 +862,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HmPCb3EvC15k7vnNABeO" name="任务-组件数据模型">
-    <mxGraphModel dx="1638" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yf7TL0ZsRpmvreX1mohq-0" />
         <mxCell id="yf7TL0ZsRpmvreX1mohq-1" parent="yf7TL0ZsRpmvreX1mohq-0" />
@@ -885,7 +885,7 @@
         <mxCell id="yf7TL0ZsRpmvreX1mohq-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-7">
           <mxGeometry y="26" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yf7TL0ZsRpmvreX1mohq-9" value="+ name: string&#xa;+ description: string&#xa;+ components: LIst&lt;Component&gt;&#xa;+ createTime: Date&#xa;+ updateTime: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-7">
+        <mxCell id="yf7TL0ZsRpmvreX1mohq-9" value="+ name: string&#xa;+ description: string&#xa;+ components: List&lt;Component&gt;&#xa;+ createTime: Date&#xa;+ updateTime: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-7">
           <mxGeometry y="34" width="200" height="86" as="geometry" />
         </mxCell>
         <mxCell id="yf7TL0ZsRpmvreX1mohq-10" value="Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="yf7TL0ZsRpmvreX1mohq-1">
@@ -936,7 +936,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Lmh0zDlbdfTJMOy9Zfx6" name="任务创建流程">
-    <mxGraphModel dx="1426" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8lcBveZCTcsamRdvOMMD-0" />
         <mxCell id="8lcBveZCTcsamRdvOMMD-1" parent="8lcBveZCTcsamRdvOMMD-0" />
