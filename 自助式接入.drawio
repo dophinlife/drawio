@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-01T07:48:19.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="f7l0eEfIjNBrgKkuOd3v" version="12.9.4" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2020-04-01T08:14:45.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="tMcfh7tPtDcC2ytYK9F7" version="12.9.4" type="github" pages="15">
   <diagram id="cGvrVyZMOiP20qZQfVJy" name="Key Terms">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -989,7 +989,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TRqycqExBnUJ7NTVJg2z" name="组件设计">
-    <mxGraphModel dx="1426" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LYp755Ic-cvIP0g5FFrH-0" />
         <mxCell id="LYp755Ic-cvIP0g5FFrH-1" parent="LYp755Ic-cvIP0g5FFrH-0" />
@@ -1182,7 +1182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P2yaQ7jlaTyKyxLtsmII" name="状态转换">
-    <mxGraphModel dx="2253" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="49Kv-ysbmTxy3fV_UNaF-0" />
         <mxCell id="49Kv-ysbmTxy3fV_UNaF-1" parent="49Kv-ysbmTxy3fV_UNaF-0" />
@@ -1303,7 +1303,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yW5H2qrvEgvY3h-Kt-1m" name="Error Info &amp; Alert">
-    <mxGraphModel dx="2253" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0t_FEINia7BLSoOnN3GV-0" />
         <mxCell id="0t_FEINia7BLSoOnN3GV-1" parent="0t_FEINia7BLSoOnN3GV-0" />
@@ -1581,6 +1581,32 @@
             <mxPoint x="259.5" y="90" as="sourcePoint" />
             <mxPoint x="260" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uVSaDfsod1gsb_7ity4d" name="restful api">
+    <mxGraphModel dx="1186" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-0" />
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-1" parent="-PWalnCyaaOZ5qjTWU2m-0" />
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-3" value="POST /task-group/${taskGroupId}/tasks" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="-PWalnCyaaOZ5qjTWU2m-1">
+          <mxGeometry x="220" y="50" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-4" value="PATCH /task-group/${taskGroupId}/tasks/{taskId}" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="-PWalnCyaaOZ5qjTWU2m-1">
+          <mxGeometry x="220" y="100" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-5" value="GET /task-group/${taskGroupId}/tasks/{taskId}" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="-PWalnCyaaOZ5qjTWU2m-1">
+          <mxGeometry x="220" y="160" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-6" value="DELETE /task-group/${taskGroupId}/tasks/{taskId}" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="-PWalnCyaaOZ5qjTWU2m-1">
+          <mxGeometry x="220" y="220" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-7" value="GET /task-group/${taskGroupId}/tasks/{taskId}/log-message" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="-PWalnCyaaOZ5qjTWU2m-1">
+          <mxGeometry x="220" y="280" width="326" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PWalnCyaaOZ5qjTWU2m-8" value="GET /task-group/${taskGroupId}/tasks/{taskId}/log-message" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="-PWalnCyaaOZ5qjTWU2m-1">
+          <mxGeometry x="220" y="340" width="326" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
