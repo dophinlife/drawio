@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-01T10:24:08.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="G-MRY05Bwhe8KxKANgTd" version="13.3.5" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-07-01T10:33:54.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hVsD6_jzHRErmDPZfXPO" version="13.3.5" type="github" pages="16">
   <diagram id="cGvrVyZMOiP20qZQfVJy" name="Key Terms">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1682,7 +1682,7 @@
         <mxCell id="e6csRxVHjyqwF5SmTuOw-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xb2wiSGgsB8fFadfNmsK-1" source="EUrykvqX3xIPR9_cq5fn-3" target="c7RHev6aOwMVCG-Y5otk-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6csRxVHjyqwF5SmTuOw-1" value="PromSQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e6csRxVHjyqwF5SmTuOw-0">
+        <mxCell id="e6csRxVHjyqwF5SmTuOw-1" value="PromQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e6csRxVHjyqwF5SmTuOw-0">
           <mxGeometry x="0.05" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
