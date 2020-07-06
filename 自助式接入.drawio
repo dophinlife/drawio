@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-07-06T08:20:39.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="m4nMsep1ircybFSs5fa9" version="13.3.6" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2020-07-06T08:22:29.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="EeZQVKJSUmhcIcXHaPtc" version="13.3.6" type="github" pages="16">
   <diagram id="az8jLgzVVUlv1rgqtyMA" name="Architecture">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,13 +19,13 @@
         <mxCell id="1eKyEQCeCli_Y0ohq6wT-4" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;数据源管理&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
           <mxGeometry x="400" y="190" width="110" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="1eKyEQCeCli_Y0ohq6wT-5" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Flow管理&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
+        <mxCell id="1eKyEQCeCli_Y0ohq6wT-5" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;任务管理&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
           <mxGeometry x="270" y="190" width="110" height="180" as="geometry" />
         </mxCell>
         <mxCell id="1eKyEQCeCli_Y0ohq6wT-6" value="创建&lt;br&gt;模板组装&lt;br&gt;参数设置&lt;br&gt;启用&lt;br&gt;禁用&lt;br&gt;删除&lt;br&gt;模块升级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
           <mxGeometry x="290" y="230" width="70" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1eKyEQCeCli_Y0ohq6wT-7" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#6666ff&quot;&gt;Schema管理&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
+        <mxCell id="1eKyEQCeCli_Y0ohq6wT-7" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff050d&quot;&gt;Schema管理&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
           <mxGeometry x="540" y="190" width="110" height="180" as="geometry" />
         </mxCell>
         <mxCell id="1eKyEQCeCli_Y0ohq6wT-8" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#6666ff&quot;&gt;监控报警&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;" parent="MkDIE1xkY6rCz0i6S9UJ-1" vertex="1">
